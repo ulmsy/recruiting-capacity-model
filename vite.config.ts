@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react';
 // or leave as '/' for Vercel / local dev
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH ?? '/',
+  base: process.env.VITE_BASE_PATH ?? '/recruiting-capacity-model/',
 });
